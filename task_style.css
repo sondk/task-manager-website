@@ -1,0 +1,51 @@
+form {
+    border: 3px solid #f1f1f1;
+}
+  
+  /* Full-width inputs */
+input[type=text] {
+    width: 50%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    display: list-item;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 7px 10px;
+    margin: 2px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+  /* Add a hover effect for buttons */
+button:hover {
+    opacity: 0.8;
+}
+
+table {
+    border-collapse: collapse;
+    width: 40%;
+}
+  
+tr {
+    height: 50px;
+    border: 1px solid black;
+}
+
+a:link {
+    background-color: #f44336;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+  
+a:hover{
+    background-color: red;
+}
